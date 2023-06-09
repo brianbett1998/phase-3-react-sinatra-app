@@ -1,0 +1,62 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.car-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.car-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+}
+
+.car-image img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.car-details {
+  flex: 1;
+}
+
+.car-details h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.review-item {
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #3071a9;
+}
